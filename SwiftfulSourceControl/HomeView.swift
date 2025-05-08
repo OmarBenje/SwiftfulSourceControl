@@ -15,6 +15,7 @@ struct HomeView: View {
                 Text("Luch, Liva K - Act A Fool")
                 Text("Jimi Jules - Whisper to me")
                 Text("Tri/xon - Workout")
+                Text("Bun Xapa, Nitefreak - ID")
             }
             .navigationTitle("Wishlist")
         }

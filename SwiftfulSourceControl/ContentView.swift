@@ -60,7 +60,7 @@ struct ContentView: View {
                 counter-=1
             }
                    , label: {
-                Text("Subscribe now")
+                Text("Subscribe now!")
                     .foregroundStyle(.white)
                     .padding()
                     .frame(maxWidth: .infinity)

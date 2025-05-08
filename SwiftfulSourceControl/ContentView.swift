@@ -48,7 +48,7 @@ struct ContentView: View {
                 counter+=1
             }
                    , label: {
-                Text("CLICK")
+                Text("SWIFTFUL THINKING")
                     .foregroundStyle(.white)
                     .padding()
                     .frame(maxWidth: .infinity)

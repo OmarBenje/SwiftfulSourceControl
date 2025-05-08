@@ -12,7 +12,7 @@ struct ContentView: View {
     @State var counter: Int = 0
     var body: some View {
         VStack {
-            Image(systemName: "heart.fill")
+            Image(systemName: counter > 2 ? "heart.fill" : "heart")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("URIDE")

@@ -8,12 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var counter: Int = 0
     var body: some View {
         VStack {
             Image(systemName: "heart.fill")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("URIDE")
+            Button(action: {
+                counter+=1
+            }
+                   , label: {
+                Text("CLICK")
+            })
+            Text("\(counter)")
         }
         .padding()
         .padding()

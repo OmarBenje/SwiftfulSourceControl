@@ -48,6 +48,20 @@ struct ContentView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
             })
             
+            Button(action: {
+                counter-=1
+            }
+                   , label: {
+                Text("Subscribe")
+                    .foregroundStyle(.white)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.red)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            })
+            
+            
+            
             Text("\(counter)")
             
         }

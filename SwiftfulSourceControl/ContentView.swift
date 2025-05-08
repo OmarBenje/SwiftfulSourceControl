@@ -5,6 +5,26 @@
 //  Created by Omar Benjelloun on 07/05/2025.
 //
 
+/*
+ COMMIT MESSAGES
+ 
+ NEW FEATURE : 
+ [Feature] Description of the feature
+ 
+ BUG IN PRODUCTION: 
+ [Patch] Description of patch
+ 
+ BUG NOT IN PRODUCTION:
+ [Bug] Description of the bug
+ 
+ MUNDANE TASKS:
+ [Clean] Description of changes
+ 
+ RELEASE :
+ [Realase] Description of release
+ 
+ */
+
 import SwiftUI
 
 struct ContentView: View {
@@ -21,8 +41,15 @@ struct ContentView: View {
             }
                    , label: {
                 Text("CLICK")
+                    .foregroundStyle(.white)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
             })
+            
             Text("\(counter)")
+            
         }
         .padding()
         .padding()

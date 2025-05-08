@@ -62,7 +62,11 @@ struct ContentView: View {
             
             
             
-            Text("\(counter*2)")
+            Text("\(counter*counter)")
+            Text("\(counter)")
+            Rectangle()
+                .frame(width: 50, height: 4, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            Text("\(counter*counter - counter)")
             
         }
         .padding()
